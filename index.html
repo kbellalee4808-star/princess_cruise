@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>2027 연말 동남아 크루즈 14박 · 벨라와 함께</title>
+<meta property="og:title" content="2027 연말, 배 위에서 새해를 맞이해요">
+<meta property="og:description" content="Diamond Princess 동남아 14박 · 싱가포르 왕복 · 2027.12.23~2028.01.06">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff" rel="preload" as="font" crossorigin>
+<style>
+@font-face{font-family:'GmarketSans';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');font-weight:700;font-display:swap}
+@font-face{font-family:'GmarketSans';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');font-weight:500;font-display:swap}
+:root{
+  --navy:#1B3A5C;--gold:#D4A94A;--ivory:#FAF7F2;--ash:#F1ECE3;
+  --ink:#1F2A37;--muted:#5F6B7A;--line:#E3DCCF;--sea:#2E6E8E;
+  --fs-xs:12px;--fs-sm:14px;--fs-md:16px;--fs-lg:20px;--fs-xl:28px;
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{font-family:'Noto Sans KR',system-ui,sans-serif;background:var(--ivory);color:var(--ink);line-height:1.65;word-break:keep-all;-webkit-font-smoothing:antialiased;min-height:100dvh;padding-bottom:env(safe-area-inset-bottom)}
+.wrap{max-width:520px;margin:0 auto}
+h1,h2,h3,.gm{font-family:'GmarketSans','Noto Sans KR',sans-serif}
+.over{color:var(--gold);font-family:'GmarketSans',sans-serif;font-weight:500;font-size:var(--fs-xs);letter-spacing:.12em;margin-bottom:8px}
+section{padding:44px 22px}
+section h2{font-size:22px;color:var(--navy);line-height:1.35;margin-bottom:18px}
+p{font-size:var(--fs-sm)}
+.lead{font-size:var(--fs-md);color:var(--ink)}
+.note{font-size:var(--fs-xs);color:var(--muted);margin-top:10px;line-height:1.6}
+a{color:inherit}
+
+/* hero */
+.hero{background:var(--navy);color:#fff;padding:60px 24px 40px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;left:-20%;right:-20%;bottom:-70px;height:140px;background:radial-gradient(ellipse at center,rgba(212,169,74,.28),transparent 70%)}
+.hero .over{color:var(--gold)}
+.hero h1{font-size:var(--fs-xl);line-height:1.3;margin:6px 0 16px}
+.hero .sub{font-size:var(--fs-sm);color:#CFD8E3;line-height:1.7}
+.hero .dates{display:inline-block;margin-top:20px;padding:10px 16px;border:1px solid var(--gold);color:var(--gold);font-family:'GmarketSans',sans-serif;font-size:var(--fs-sm);letter-spacing:.04em}
+.hero .facts{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:26px;position:relative;z-index:1}
+.hero .facts div{background:rgba(255,255,255,.07);padding:12px 8px;text-align:center}
+.hero .facts b{display:block;font-family:'GmarketSans',sans-serif;font-size:20px;color:var(--gold)}
+.hero .facts span{font-size:var(--fs-xs);color:#CFD8E3}
+
+/* sticky nav */
+.nav{position:sticky;top:0;z-index:20;background:rgba(250,247,242,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);display:flex;overflow-x:auto;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nav a{flex:0 0 auto;min-height:50px;display:flex;align-items:center;padding:0 16px;font-size:13px;font-weight:500;color:var(--navy);text-decoration:none;white-space:nowrap;border-bottom:2px solid transparent}
+.nav a:active{border-bottom-color:var(--gold)}
+
+/* why */
+.why li{list-style:none;display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--line);font-size:var(--fs-sm)}
+.why li:last-child{border-bottom:0}
+.why li i{flex:0 0 auto;font-style:normal;font-size:18px;line-height:1.4}
+.free{background:var(--ash);padding:16px 18px;margin-top:18px;font-size:var(--fs-sm);border-left:3px solid var(--gold)}
+
+/* itinerary */
+.itin{width:100%;border-collapse:collapse;font-size:13px}
+.itin th{text-align:left;color:var(--muted);font-weight:500;font-size:var(--fs-xs);padding:6px 4px;border-bottom:1px solid var(--navy)}
+.itin td{padding:9px 4px;border-bottom:1px solid var(--line);vertical-align:top}
+.itin td:first-child{white-space:nowrap;color:var(--muted);font-family:'GmarketSans',sans-serif;font-size:12px;width:52px}
+.itin td:last-child{white-space:nowrap;text-align:right;color:var(--muted);font-size:12px}
+.itin tr.sea td{background:#F7F2E7}
+.itin tr.sea td:nth-child(2){color:var(--sea)}
+.itin tr.hl td:nth-child(2){font-weight:700;color:var(--navy)}
+.tag{display:inline-block;font-size:11px;padding:1px 7px;border-radius:2px;margin-left:6px;vertical-align:middle}
+.tag.sea{background:#DCEBF3;color:var(--sea)}
+.tag.opt{background:#F3E7C6;color:#8A6A14}
+.tag.walk{background:#E1EFE2;color:#2D6A3E}
+
+/* ports */
+.port{padding:14px 0;border-bottom:1px solid var(--line)}
+.port:last-child{border-bottom:0}
+.port h3{font-size:var(--fs-md);color:var(--navy);display:flex;align-items:center;flex-wrap:wrap;gap:6px}
+.port p{margin-top:4px;color:var(--muted)}
+.legend{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:14px;font-size:var(--fs-xs);color:var(--muted)}
+
+/* price */
+.ptable{width:100%;border-collapse:collapse;margin-top:6px}
+.ptable td{padding:12px 4px;border-bottom:1px solid var(--line);font-size:var(--fs-sm)}
+.ptable td:last-child{text-align:right;font-family:'GmarketSans',sans-serif;font-weight:700;color:var(--navy);font-size:15px}
+.member{margin-top:16px;background:var(--navy);color:#fff;padding:18px;font-size:var(--fs-sm);line-height:1.7}
+.member b{color:var(--gold);font-family:'GmarketSans',sans-serif}
+.card{background:#fff;border:1px solid var(--line);padding:18px;margin-top:14px}
+.card h3{font-size:var(--fs-md);color:var(--navy);margin-bottom:10px}
+.price-line{display:flex;justify-content:space-between;align-items:baseline;padding:8px 0;border-bottom:1px dashed var(--line);font-size:var(--fs-sm)}
+.price-line:last-child{border-bottom:0}
+.price-line b{font-family:'GmarketSans',sans-serif;color:var(--navy);font-size:15px;white-space:nowrap;margin-left:12px}
+.incl{margin-top:10px;font-size:13px;color:var(--muted);line-height:1.7}
+.incl b{color:var(--ink);font-weight:500}
+
+/* buttons */
+.btn{display:flex;align-items:center;justify-content:center;min-height:56px;padding:0 20px;text-decoration:none;font-family:'GmarketSans',sans-serif;font-weight:700;font-size:15px;border-radius:4px;margin-top:14px}
+.btn.gold{background:var(--gold);color:var(--navy)}
+.btn.navy{background:var(--navy);color:#fff}
+.btn.line{border:1.5px solid var(--navy);color:var(--navy);background:transparent;font-weight:500}
+
+/* hotels */
+.hotel{padding:12px 0;border-bottom:1px solid var(--line)}
+.hotel:last-child{border-bottom:0}
+.hotel h3{font-size:15px;color:var(--navy)}
+.hotel span{display:block;font-size:var(--fs-xs);color:var(--gold);font-family:'GmarketSans',sans-serif;font-weight:500;margin-bottom:2px}
+.hotel p{color:var(--muted);font-size:13px}
+.hotel .hp{display:block;font-family:'Noto Sans KR',sans-serif;font-weight:400;font-size:12px;color:var(--muted);margin-top:2px}
+.hotel .hprice{display:inline-block;font-style:normal;font-family:'GmarketSans',sans-serif;font-weight:500;font-size:13px;color:var(--navy);margin-top:6px}
+
+/* steps */
+.steps{counter-reset:s;margin-top:10px}
+.steps li{list-style:none;position:relative;padding:10px 0 10px 40px;font-size:var(--fs-sm);border-bottom:1px solid var(--line)}
+.steps li:last-child{border-bottom:0}
+.steps li::before{counter-increment:s;content:counter(s);position:absolute;left:0;top:11px;width:26px;height:26px;border-radius:50%;background:var(--navy);color:var(--gold);font-family:'GmarketSans',sans-serif;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center}
+.tip{background:#FFF9E8;border:1px solid #F0DFAE;padding:14px 16px;margin-top:14px;font-size:13px;line-height:1.7}
+
+/* check */
+.check li{list-style:none;padding:10px 0 10px 26px;position:relative;font-size:var(--fs-sm);border-bottom:1px solid var(--line)}
+.check li:last-child{border-bottom:0}
+.check li::before{content:"";position:absolute;left:4px;top:19px;width:8px;height:8px;background:var(--gold);transform:rotate(45deg)}
+
+/* apply */
+.apply{background:var(--navy);color:#fff;text-align:center;padding:52px 24px 60px}
+.apply .over{color:var(--gold)}
+.apply h2{color:#fff;font-size:24px}
+.apply p{color:#CFD8E3}
+.apply .btn.gold{margin-top:22px}
+.apply .host{margin-top:26px;font-size:13px;color:#CFD8E3;line-height:1.7;border-top:1px solid rgba(255,255,255,.15);padding-top:20px}
+footer{text-align:center;font-size:11px;color:var(--muted);padding:20px 22px 40px;line-height:1.7}
+
+@media (max-width:360px){
+  .hero h1{font-size:24px}
+  .hero .facts b{font-size:17px}
+  section{padding:38px 18px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero">
+  <div class="over">CHRISTMAS &amp; NEW YEAR AT SEA</div>
+  <h1>2027 연말,<br>배 위에서 새해를 맞이해요</h1>
+  <p class="sub">크리스마스도, 12월 31일 카운트다운도, 새해 첫 아침도 바다 위에서.<br>7개 기항지, 3개 나라를 짐 한 번 풀고 다녀오는 크루즈예요.</p>
+  <div class="dates">2027.12.23 (목) → 2028.01.06 (목)</div>
+  <div class="facts">
+    <div><b>14박</b><span>Diamond Princess</span></div>
+    <div><b>7곳</b><span>기항지 · 3개국</span></div>
+    <div><b>3번</b><span>선상 파티</span></div>
+  </div>
+</header>
+
+<nav class="nav">
+  <a href="#why">소개</a>
+  <a href="#itin">일정</a>
+  <a href="#ports">기항지</a>
+  <a href="#price">비용</a>
+  <a href="#flight">항공·호텔</a>
+  <a href="#ins">보험</a>
+  <a href="#apply">신청</a>
+</nav>
+
+<section id="why">
+  <div class="over">WHY THIS CRUISE</div>
+  <h2>이 크루즈가 좋은 이유</h2>
+  <ul class="why">
+    <li><i>✈️</i><div>싱가포르 왕복이라 항공이 짧고 부담이 적어요</div></li>
+    <li><i>⚓</i><div>기항지 7곳 중 6곳이 항구에서 바로 시내예요. 내려서 바로 놀아요</div></li>
+    <li><i>🎉</i><div>크리스마스·연말·새해가 모두 씨데이. 선상 파티가 세 번이에요</div></li>
+    <li><i>🛳️</i><div>소그룹으로 편하게 다녀와요. 혼자 오셔도 괜찮아요</div></li>
+  </ul>
+  <div class="free">
+    <b>자유여행 기반이에요.</b><br>
+    인아웃 준비는 벨라가 하고, 기항지에서는 각자 원하는 대로.<br>
+    원하는 날만 함께 밴 타고 다녀와요.
+  </div>
+</section>
+
+<section id="itin" style="background:#fff">
+  <div class="over">ITINERARY</div>
+  <h2>14박 일정</h2>
+  <table class="itin">
+    <thead><tr><th>날짜</th><th>기항지</th><th>정박</th></tr></thead>
+    <tbody>
+      <tr><td>12/22</td><td>싱가포르 도착 · 각자 숙박</td><td></td></tr>
+      <tr class="hl"><td>12/23</td><td>싱가포르 승선</td><td>16:00 출항</td></tr>
+      <tr class="sea"><td>12/24</td><td>씨데이 <span class="tag sea">크리스마스 이브</span></td><td></td></tr>
+      <tr class="sea"><td>12/25</td><td>씨데이 <span class="tag sea">크리스마스</span></td><td></td></tr>
+      <tr><td>12/26</td><td>나트랑 <span class="tag opt">밴 옵션</span></td><td>07:00–16:00</td></tr>
+      <tr><td>12/27</td><td>붕따우 <span class="tag opt">밴 옵션</span></td><td>07:00–18:00</td></tr>
+      <tr class="sea"><td>12/28</td><td>씨데이</td><td></td></tr>
+      <tr><td>12/29</td><td>방콕 <span class="tag opt">밴 옵션</span></td><td>08:00–23:00</td></tr>
+      <tr class="sea"><td>12/30</td><td>씨데이</td><td></td></tr>
+      <tr class="sea"><td>12/31</td><td>씨데이 <span class="tag sea">카운트다운</span></td><td></td></tr>
+      <tr class="sea"><td>1/1</td><td>씨데이 <span class="tag sea">새해</span></td><td></td></tr>
+      <tr><td>1/2</td><td>푸켓 <span class="tag walk">걸어서</span></td><td>08:00–19:00</td></tr>
+      <tr><td>1/3</td><td>랑카위 <span class="tag walk">걸어서</span></td><td>08:00–17:00</td></tr>
+      <tr><td>1/4</td><td>페낭 <span class="tag walk">걸어서</span></td><td>07:00–16:00</td></tr>
+      <tr><td>1/5</td><td>쿠알라룸푸르 <span class="tag opt">밴 옵션</span></td><td>07:00–17:00</td></tr>
+      <tr class="hl"><td>1/6</td><td>싱가포르 하선 · 시티투어 · 귀국</td><td>07:00 하선</td></tr>
+    </tbody>
+  </table>
+  <p class="note">정박 시간은 선사 일정으로 현지 사정에 따라 바뀔 수 있어요.</p>
+</section>
+
+<section id="ports">
+  <div class="over">PORTS</div>
+  <h2>기항지는 자유,<br>원하면 함께</h2>
+  <div class="free" style="margin:0 0 18px">
+    <b>밴 옵션은 8명 이상일 때 진행 가능해요.</b><br>
+    신청하신 분들끼리만 가이드 밴으로 다녀와요. 나머지는 자유예요.
+  </div>
+  <div class="legend">
+    <span><span class="tag walk" style="margin:0 4px 0 0">걸어서</span>항구에서 바로 시내</span>
+    <span><span class="tag opt" style="margin:0 4px 0 0">밴 옵션</span>가이드 밴, 신청자만</span>
+  </div>
+
+  <div class="port">
+    <h3>방콕 <span class="tag opt">밴 옵션</span></h3>
+    <p>왕궁·왓포·강변 저녁까지, 이 여정의 하이라이트예요. 항구에서 시내까지 약 2시간이라 전용 밴과 한국어 가이드로 다녀와요.</p>
+  </div>
+  <div class="port">
+    <h3>나트랑 <span class="tag opt">밴 옵션</span></h3>
+    <p>해변·포나가르 탑·머드 스파. 깜란 항에서 시내까지 밴으로 1시간, 시내 도착 후엔 자유예요.</p>
+  </div>
+  <div class="port">
+    <h3>붕따우 <span class="tag opt">밴 옵션</span></h3>
+    <p>산 위 예수상·백딘·바다 보이는 해산물 점심. 항구에서 40분, 반나절이면 충분해요.</p>
+  </div>
+  <div class="port">
+    <h3>쿠알라룸푸르 <span class="tag opt">밴 옵션</span></h3>
+    <p>페트로나스 트윈타워·바투동굴. 포트클랑에서 시내까지 1시간, 스카이브릿지는 미리 예약하면 좋아요.</p>
+  </div>
+  <div class="port">
+    <h3>푸켓 <span class="tag walk">걸어서</span></h3>
+    <p>파통 비치 바로 앞에 내려요. 해변·마사지·방라 로드. 올드타운이나 빅부다는 택시로 30분.</p>
+  </div>
+  <div class="port">
+    <h3>랑카위 <span class="tag walk">걸어서</span></h3>
+    <p>부두 앞 이글스퀘어와 면세 쇼핑. 케이블카·스카이브릿지는 부두 택시로 30분.</p>
+  </div>
+  <div class="port">
+    <h3>페낭 <span class="tag walk">걸어서</span></h3>
+    <p>부두가 조지타운 한복판이에요. 벽화 거리·클랜 제티·호커 먹거리를 걸어서 다녀요.</p>
+  </div>
+  <p class="note">밴 옵션 날은 점심만 같이, 나머지는 자유예요. 식사·입장료는 개별 부담이에요.</p>
+</section>
+
+<section id="price" style="background:#fff">
+  <div class="over">CRUISE FARE</div>
+  <h2>크루즈 요금</h2>
+  <p class="lead">2인 1실, 1인 기준 · 비회원가</p>
+  <table class="ptable">
+    <tr><td>인사이드</td><td>약 256만원</td></tr>
+    <tr><td>오션뷰</td><td>약 279만원</td></tr>
+    <tr><td>발코니</td><td>약 382만원</td></tr>
+    <tr><td>스위트</td><td>약 507만원</td></tr>
+  </table>
+  <p class="note">2026년 9월 기준 참고가예요. 크루즈 요금은 예약 시점에 따라 달라져요(다이나믹 프라이싱). $1=1,500원으로 계산했고 선상 팁·와이파이·주류는 별도예요.</p>
+  <div class="member">
+    <b>멤버가는 따로 있어요.</b><br>
+    크루즈 멤버십 회원은 최대 50% 리워드가 적용돼요.<br>
+    자세한 건 DM으로 편하게 물어보세요.
+  </div>
+
+  <div class="over" style="margin-top:40px">LAND PACKAGE</div>
+  <h2>지상비</h2>
+
+  <div class="card">
+    <h3>기본 (필수)</h3>
+    <div class="price-line"><span>멤버</span><b>40만원</b></div>
+    <div class="price-line"><span>비회원</span><b>45만원</b></div>
+    <div class="incl">
+      <b>포함</b> 1/6 하선 후 싱가포르 시티투어(전용 버스·가이드·짐 보관) · 공항 샌딩 · 여행 전 준비 안내 · 벨라 동행<br>
+      <b>불포함</b> 항공 · 숙박 · 식사 · 입장료 · 여행자보험 · 선상 팁
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>옵션 (원하는 것만)</h3>
+    <div class="price-line"><span>싱가포르 호텔 1박 + 공항 픽업 + 터미널 이동<br><small style="color:var(--muted)">12/22 도착 · 2인 1실</small></span><b>20만원</b></div>
+    <div class="price-line"><span>방콕 종일 밴 + 한국어 가이드</span><b>6만원</b></div>
+    <div class="price-line"><span>쿠알라룸푸르 종일 밴 + 가이드</span><b>5만원</b></div>
+    <div class="price-line"><span>나트랑 반일 밴 + 가이드</span><b>5만원</b></div>
+    <div class="price-line"><span>붕따우 반일 밴 + 가이드</span><b>5만원</b></div>
+    <div class="incl">밴 옵션은 8명 기준이에요. 8명 이상 모이면 진행되고, 인원이 많아지면 조금 내려가요. 견적 확정 후 조정될 수 있어요.</div>
+  </div>
+</section>
+
+<section id="flight">
+  <div class="over">FLIGHT</div>
+  <h2>항공</h2>
+  <p class="lead">인천 ↔ 싱가포르, 각자 예약이에요.</p>
+  <p class="note" style="font-size:var(--fs-sm);color:var(--ink);margin-top:10px">
+    <b>12/22까지 싱가포르 도착</b>이 꼭 필요해요. 승선 마감이 오후 2시 전후라 당일 도착 항공편으로는 탈 수 없어요.<br>
+    귀국편은 1/6 저녁 이후로 잡아주세요. 연말 성수기라 서두르시는 게 좋아요.
+  </p>
+  <a class="btn line" href="http://pf.kakao.com/_EgXxbb" target="_blank" rel="noopener">✈️ 항공 예약 대행 문의 (투어박스)</a>
+
+  <div class="over" style="margin-top:40px">SINGAPORE STAY</div>
+  <h2>12/22 추천 숙소</h2>
+  <p class="note" style="margin:0 0 6px">숙박은 각자 예약이에요. 마리나베이 크루즈 터미널까지 택시로 10~15분 거리를 골랐어요. 12/23 정오 터미널에서 만나요.</p>
+
+  <div class="hotel">
+    <span>PREMIUM</span>
+    <h3>마리나 베이 샌즈 <small class="hp">Marina Bay Sands</small></h3>
+    <p>싱가포르의 상징. 터미널과 가장 가깝고 가든스바이더베이가 바로 옆이에요. 연말엔 일찍 마감돼요.</p>
+    <em class="hprice">1박 2인 약 70~90만원</em>
+  </div>
+  <div class="hotel">
+    <span>COMFORT</span>
+    <h3>콘래드 센테니얼 · 팬 퍼시픽 <small class="hp">Conrad Centennial · Pan Pacific</small></h3>
+    <p>마리나 스퀘어 쪽 5성급. 선텍시티·MRT가 붙어 있어 저녁 산책하기 좋아요.</p>
+    <em class="hprice">1박 2인 약 40~55만원</em>
+  </div>
+  <div class="hotel">
+    <span>SMART</span>
+    <h3>칼튼 호텔 <small class="hp">Carlton Hotel Singapore</small></h3>
+    <p>시티홀 옆 4성급. 래플스·차임스가 걸어서 5분, 가격 대비 만족도가 높아요.</p>
+    <em class="hprice">1박 2인 약 30~40만원</em>
+  </div>
+  <div class="hotel">
+    <span>VALUE</span>
+    <h3>호텔 보스 <small class="hp">Hotel Boss</small></h3>
+    <p>라벤더역 인근 대형 호텔. 깔끔하고 합리적이라 하룻밤 경유에 딱이에요.</p>
+    <em class="hprice">1박 2인 약 15~22만원</em>
+  </div>
+  <p class="note">예상가는 12월 성수기 2인 1실 기준이라 1인이면 절반이에요. 예약 시점에 따라 달라지니 호텔 예약 사이트에서 12/22 1박으로 확인해주세요.</p>
+</section>
+
+<section id="ins" style="background:#fff">
+  <div class="over">TRAVEL INSURANCE</div>
+  <h2>여행자보험, 이렇게 들어요</h2>
+  <p class="lead">직접 가입하거나, 여행사에 맡기거나. 편한 쪽으로 하시면 돼요.</p>
+  <h3 style="font-size:var(--fs-md);color:var(--navy);margin-top:18px">직접 가입 — 카카오페이 해외여행보험</h3>
+  <p class="note" style="margin-top:2px">카톡만 있으면 3분이면 끝나요.</p>
+  <ol class="steps">
+    <li>카카오톡 → 오른쪽 아래 <b>더보기(···)</b> → <b>카카오페이</b></li>
+    <li><b>보험</b> 메뉴 → <b>해외여행보험</b></li>
+    <li>여행 국가에 싱가포르·베트남·태국·말레이시아, 기간은 <b>12/22 ~ 1/7</b>로 입력</li>
+    <li>플랜 선택 — <b>플러스</b>를 추천해요 (해외 의료비 넉넉하게)</li>
+    <li>결제하면 끝. 가입증명서는 카카오페이 보험 탭에서 바로 확인돼요</li>
+  </ol>
+  <div class="tip">
+    💡 <b>일행과 같이 들면 할인돼요.</b> 카톡 친구로 함께 가입하면 2명 5%, 3명 이상 10% 할인. 무사히 돌아오면 보험료 10%도 돌려줘요.<br>
+    💡 크루즈는 <b>항공 지연·수하물·휴대품 손해</b> 보장을 꼭 포함해두세요.
+  </div>
+  <p class="note">보장 내용과 보험료는 가입 시점 상품 기준이에요. 기존에 쓰시는 보험이 있으면 그대로 쓰셔도 돼요.</p>
+  <h3 style="font-size:var(--fs-md);color:var(--navy);margin-top:28px">여행사에 맡기기</h3>
+  <p class="note" style="margin-top:2px">항공 예약하실 때 보험까지 한 번에 부탁하면 제일 편해요.</p>
+  <a class="btn line" href="http://pf.kakao.com/_EgXxbb" target="_blank" rel="noopener">🧾 항공·보험 한 번에 문의 (투어박스)</a>
+</section>
+
+<section id="check">
+  <div class="over">PLEASE CHECK</div>
+  <h2>꼭 확인해주세요</h2>
+  <ul class="check">
+    <li>최소 14명 출발이에요. 미달 시 지상비를 재조정하거나 개별 참여로 전환돼요</li>
+    <li>지상비 중 예약금 20만원은 예약 후 환불이 어려워요</li>
+    <li>크루즈 예약은 각자 진행해요. 방법은 신청하시면 안내해드려요</li>
+    <li>2인 1실 기준이에요. 혼자 오시면 룸메이트를 매칭해드려요</li>
+    <li>12/22 저녁, 호텔 근처에서 사전 모임을 열어요 (자유 참석)</li>
+  </ul>
+</section>
+
+<section id="apply" class="apply">
+  <div class="over">JOIN</div>
+  <h2>같이 갈까요?</h2>
+  <p>오픈채팅으로 "동남아 크루즈"라고 보내주세요.<br>예약 방법과 일정을 바로 안내해드려요.</p>
+  <a class="btn gold" href="https://open.kakao.com/o/sbJudavg" target="_blank" rel="noopener">🛳️ 오픈채팅으로 신청하기</a>
+  <div class="host">
+    벨라는 여행 내내 함께하는 호스트예요.<br>
+    기항지 안내는 현지 가이드가 맡아요.
+  </div>
+</section>
+
+<footer>
+  Diamond Princess · Princess Cruises<br>
+  본 페이지는 크루즈 멤버십 회원 벨라가 함께 가는 여행을 안내하는 페이지예요. 요금과 일정은 선사 사정에 따라 변경될 수 있어요.
+</footer>
+
+</div>
+</body>
+</html>
